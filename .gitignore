@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+.env
+.env.*
+
+# Data and runtime
+.data/
+data/
+logs/
+*.db
+*.sqlite3
+uploads/
+artifacts/
+
+# Frontend
+apps/web/node_modules/
+apps/web/.next/
+apps/web/out/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Docker
+*.pid

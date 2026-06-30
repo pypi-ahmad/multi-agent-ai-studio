@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "entrypoint": "supervisor",
+  "nodes": [
+    {"id": "supervisor", "kind": "supervisor", "config": {"retry": 2}},
+    {"id": "planner", "kind": "agent", "config": {"role": "planner"}},
+    {"id": "research", "kind": "agent", "config": {"role": "research"}},
+    {"id": "reviewer", "kind": "agent", "config": {"role": "reviewer"}},
+    {"id": "critic", "kind": "agent", "config": {"role": "critic"}}
+  ],
+  "edges": [
+    {"source": "supervisor", "target": "planner"},
+    {"source": "planner", "target": "research"},
+    {"source": "research", "target": "reviewer"},
+    {"source": "reviewer", "target": "critic"}
+  ]
+}

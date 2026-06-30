@@ -1,0 +1,38 @@
+site_name: Multi-Agent AI Studio
+site_description: Local privacy-first multi-agent AI engineering platform
+site_url: http://localhost:8000/docs/site
+
+theme:
+  name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Guides:
+      - Installation: guides/installation.md
+      - Zero to Hero Study Handbook: guides/zero-to-hero-study-handbook.md
+      - Folder Structure: guides/folder-structure.md
+      - LangGraph: guides/langgraph-guide.md
+      - Agent Development: guides/agent-development-guide.md
+      - Memory: guides/memory-guide.md
+      - Tool Calling: guides/tool-calling-guide.md
+      - RAG: guides/rag-guide.md
+      - Evaluation: guides/evaluation-guide.md
+      - Observability: guides/observability-guide.md
+      - Ollama: guides/ollama-guide.md
+      - GPU: guides/gpu-guide.md
+      - Performance: guides/performance-guide.md
+      - Beginner Learning: guides/beginner-learning-guide.md
+  - Architecture:
+      - Architecture Guide: architecture/architecture-guide.md
+      - Diagrams: architecture/architecture-diagrams.md
+  - API:
+      - API Guide: api/api-guide.md
+  - Operations:
+      - Deployment: operations/deployment-guide.md
+      - Docker: operations/docker-guide.md
+      - Troubleshooting: operations/troubleshooting-guide.md
+      - FAQ: operations/faq.md
