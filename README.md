@@ -354,3 +354,5 @@ docker compose down
 ## License
 
 MIT
+
+<p align="center">Made with ❤️ by Ahmad Mujtaba</p>
